@@ -1,6 +1,6 @@
 {
   "name": "react-signature-canvas",
-  "version": "1.0.0-alpha.1",
+  "version": "0.2.2",
   "description": "A signature pad implementation in React",
   "main": "build/index.js",
   "scripts": {
@@ -15,14 +15,9 @@
     "component",
     "signature",
     "sign",
-    "e-sign",
-    "e-signature",
     "canvas",
-    "trim",
-    "whitespace",
     "draw",
     "pad",
-    "wrapper",
     "signature-pad",
     "react-signature-pad"
   ],
@@ -48,11 +43,10 @@
   },
   "peerDependencies": {
     "prop-types": "^15.5.8",
-    "react": "0.14 - 16",
-    "react-dom": "0.14 - 16"
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.0"
   },
   "dependencies": {
-    "signature_pad": "^2.3.2",
     "trim-canvas": "^0.1.0"
   }
 }
